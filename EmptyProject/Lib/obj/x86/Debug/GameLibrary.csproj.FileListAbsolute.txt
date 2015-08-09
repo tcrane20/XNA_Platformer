@@ -1,0 +1,12 @@
+C:\Users\Diogo\Desktop\EmptyProject\Lib\bin\x86\Debug\GameLibrary.dll
+C:\Users\Diogo\Desktop\EmptyProject\Lib\bin\x86\Debug\GameLibrary.pdb
+C:\Users\Diogo\Desktop\EmptyProject\Lib\obj\x86\Debug\GameLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Diogo\Desktop\EmptyProject\Lib\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Diogo\Desktop\EmptyProject\Lib\obj\x86\Debug\GameLibrary.dll
+C:\Users\Diogo\Desktop\EmptyProject\Lib\obj\x86\Debug\GameLibrary.pdb
+E:\Desktop\EmptyProject\Lib\bin\x86\Debug\GameLibrary.dll
+E:\Desktop\EmptyProject\Lib\bin\x86\Debug\GameLibrary.pdb
+E:\Desktop\EmptyProject\Lib\obj\x86\Debug\GameLibrary.csprojResolveAssemblyReference.cache
+E:\Desktop\EmptyProject\Lib\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Desktop\EmptyProject\Lib\obj\x86\Debug\GameLibrary.dll
+E:\Desktop\EmptyProject\Lib\obj\x86\Debug\GameLibrary.pdb

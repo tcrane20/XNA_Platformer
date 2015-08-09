@@ -1,0 +1,2 @@
+C:\Users\Diogo\Desktop\EmptyProject\EmptyProject\EmptyProjectContent\obj\x86\Debug\EmptyProjectContent.contentprojResolveAssemblyReference.cache
+E:\Desktop\EmptyProject\EmptyProject\EmptyProjectContent\obj\x86\Debug\EmptyProjectContent.contentprojResolveAssemblyReference.cache

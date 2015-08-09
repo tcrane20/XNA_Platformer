@@ -1,0 +1,13 @@
+- Task Name - Priority
+
+- Engine
+- Do scale system - Low
+- Gravity and collisions - Medium / High
+- Animated Sprites (individual files or spritesheet?) - High
+- Tile System - High
+- UI System - Medium
+
+- Form
+- Map editor - you decide, if you want to hardcode maps in this stage
+- Animation / Collision boxes Offsets - low
+
