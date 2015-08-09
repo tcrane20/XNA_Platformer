@@ -9,26 +9,30 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace GameLibrary.GameObjects
 {
-    public class DrawableGameObject : GameObject
+    public class PlatformerPlayer : PlatformerObject
     {
-        public Texture2D Texture { get; set; }
 
-        public Vector2 Position { get; set; }
-
-        public DrawableGameObject(ContentManager content, string textureName)
-            :base(content)
+        public PlatformerPlayer(ContentManager content, string textureName)
+            : base(content, textureName)
         {
-            Texture = Content.Load<Texture2D>(textureName);
+            
         }
 
         public override void Update(GameTime gameTime)
         {
-
+            if (Input.Right)
+            {
+                this.Position += 4 * Vector2.UnitX;
+            }
+            if (Input.Left)
+            {
+                this.Position += -4 * Vector2.UnitX;
+            }
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(this.Texture, this.Position, Color.White);
+            base.Draw(spriteBatch);
         }
     }
 }

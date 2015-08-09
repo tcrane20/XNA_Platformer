@@ -1,5 +1,4 @@
-﻿using GameLibrary.PLayerInput;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
@@ -18,12 +17,11 @@ namespace GameLibrary.GameObjects
 
         protected ContentManager Content { get; set; }
 
-        public PlayerInput PlayerInput { get; set; }
+        
 
-        public GameObject(ContentManager content,PlayerInput playerInput)
+        public GameObject(ContentManager content)
         {
             Content = content;
-            PlayerInput = playerInput;
         }
 
         public virtual void Draw(SpriteBatch spriteBatch)

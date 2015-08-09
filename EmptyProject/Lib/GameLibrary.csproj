@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="GameObjects\GameObject.cs" />
     <Compile Include="GameObjects\PlatformerObject.cs" />
+    <Compile Include="GameObjects\PlatformerPlayer.cs" />
     <Compile Include="GameObjects\SceneBase.cs" />
     <Compile Include="GameObjects\DrawableGameObject.cs" />
     <Compile Include="PlayerInput\ControlScheme.cs" />

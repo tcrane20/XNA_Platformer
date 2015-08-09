@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Desktop\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\Content\blank.xnb</Output>
+      <Output>E:\Desktop\XNA_Platformer\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\Content\blank.xnb</Output>
       <Time>2015-08-09T02:42:27.5267141-07:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Desktop\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\Content\XMLFile1.xnb</Output>
+      <Output>E:\Desktop\XNA_Platformer\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\Content\XMLFile1.xnb</Output>
       <Time>2015-08-09T02:46:30.1524992-07:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Desktop\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\Content\font.xnb</Output>
+      <Output>E:\Desktop\XNA_Platformer\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\Content\font.xnb</Output>
       <Time>2015-08-09T02:46:35.5738103-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -35,10 +35,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\Desktop\EmptyProject\EmptyProject\EmptyProjectContent\</RootDirectory>
-      <LoggerRootDirectory>E:\Desktop\EmptyProject\EmptyProject\EmptyProject\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\Desktop\EmptyProject\EmptyProject\EmptyProject\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>E:\Desktop\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>E:\Desktop\XNA_Platformer\EmptyProject\EmptyProject\EmptyProjectContent\</RootDirectory>
+      <LoggerRootDirectory>E:\Desktop\XNA_Platformer\EmptyProject\EmptyProject\EmptyProject\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Desktop\XNA_Platformer\EmptyProject\EmptyProject\EmptyProject\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Desktop\XNA_Platformer\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

@@ -6,161 +6,161 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using System.IO;
 
-namespace GameLibrary.PLayerInput
+namespace GameLibrary.PlayerInput
 {
-    public class PlayerInput 
+    public static class Input 
     {
-        public ControlScheme Controls { get; set; }
+        private static ControlScheme Controls = new ControlScheme();//{ get; set; }
 
-        public KeyboardState CurrentKeyboardState { get; set; }
+        private static KeyboardState CurrentKeyboardState = Keyboard.GetState();// { get; set; }
 
-        public KeyboardState OldKeyboardState { get; set; }
+        private static KeyboardState OldKeyboardState = CurrentKeyboardState;//{ get; set; }
 
-        public MouseState CurrentMouseState { get; set; }
+        private static MouseState CurrentMouseState = Mouse.GetState();//{ get; set; }
 
-        public MouseState OldMouseState { get; set; }
+        private static MouseState OldMouseState = CurrentMouseState;// { get; set; }
 
         #region Controls
 
-        public bool Left
+        public static bool Left
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Left); }
         }
 
-        public bool LeftPressed
+        public static bool LeftPressed
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Left) && !OldKeyboardState.IsKeyDown(Controls.Left); }
         }
 
-        public bool LeftReleased
+        public static bool LeftReleased
         {
             get { return !CurrentKeyboardState.IsKeyDown(Controls.Left) && OldKeyboardState.IsKeyDown(Controls.Left); }
         }
 
-        public bool Right
+        public static bool Right
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Right); }
         }
 
-        public bool RightPressed
+        public static bool RightPressed
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Right) && !OldKeyboardState.IsKeyDown(Controls.Right); }
         }
 
-        public bool RightReleased
+        public static bool RightReleased
         {
             get { return !CurrentKeyboardState.IsKeyDown(Controls.Right) && OldKeyboardState.IsKeyDown(Controls.Right); }
         }
 
-        public bool Attack1
+        public static bool Attack1
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Attack1); }
         }
 
-        public bool Attack1Pressed
+        public static bool Attack1Pressed
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Attack1) && !OldKeyboardState.IsKeyDown(Controls.Attack1); }
         }
 
-        public bool Attack1Released
+        public static bool Attack1Released
         {
             get { return !CurrentKeyboardState.IsKeyDown(Controls.Attack1) && OldKeyboardState.IsKeyDown(Controls.Attack1); }
         }
 
-        public bool Attack2
+        public static bool Attack2
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Attack2); }
         }
 
-        public bool Attack2Pressed
+        public static bool Attack2Pressed
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Attack2) && !OldKeyboardState.IsKeyDown(Controls.Attack2); }
         }
 
-        public bool Attack2Released
+        public static bool Attack2Released
         {
             get { return !CurrentKeyboardState.IsKeyDown(Controls.Attack2) && OldKeyboardState.IsKeyDown(Controls.Attack2); }
         }
-        public bool Run
+        public static bool Run
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Run); }
         }
 
-        public bool RunPressed
+        public static bool RunPressed
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Run) && !OldKeyboardState.IsKeyDown(Controls.Run); }
         }
 
-        public bool RunReleased
+        public static bool RunReleased
         {
             get { return !CurrentKeyboardState.IsKeyDown(Controls.Run) && OldKeyboardState.IsKeyDown(Controls.Run); }
         }
 
-        public bool Confirm
+        public static bool Confirm
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Confirm); }
         }
 
-        public bool ConfirmPressed
+        public static bool ConfirmPressed
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Confirm) && !OldKeyboardState.IsKeyDown(Controls.Confirm); }
         }
 
-        public bool ConfirmReleased
+        public static bool ConfirmReleased
         {
             get { return !CurrentKeyboardState.IsKeyDown(Controls.Confirm) && OldKeyboardState.IsKeyDown(Controls.Confirm); }
         }
 
-        public bool Back
+        public static bool Back
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Back); }
         }
 
-        public bool BackPressed
+        public static bool BackPressed
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Back) && !OldKeyboardState.IsKeyDown(Controls.Back); }
         }
 
-        public bool BackReleased
+        public static bool BackReleased
         {
             get { return !CurrentKeyboardState.IsKeyDown(Controls.Back) && OldKeyboardState.IsKeyDown(Controls.Back); }
         }
 
-        public bool Debug
+        public static bool Debug
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Debug); }
         }
 
-        public bool DebugPressed
+        public static bool DebugPressed
         {
             get { return CurrentKeyboardState.IsKeyDown(Controls.Debug) && !OldKeyboardState.IsKeyDown(Controls.Debug); }
         }
 
-        public bool DebugReleased
+        public static bool DebugReleased
         {
             get { return !CurrentKeyboardState.IsKeyDown(Controls.Debug) && OldKeyboardState.IsKeyDown(Controls.Debug); }
         }
 
-        public bool MouseLeft
+        public static bool MouseLeft
         {
             get { return CurrentMouseState.LeftButton == ButtonState.Pressed; }
         }
 
-        public bool MouseLeftClicked
+        public static bool MouseLeftClicked
         {
             get { return CurrentMouseState.LeftButton == ButtonState.Pressed && OldMouseState.LeftButton == ButtonState.Released; }
         }
 
-        public bool MouseLeftReleased
+        public static bool MouseLeftReleased
         {
             get { return CurrentMouseState.LeftButton == ButtonState.Released && OldMouseState.LeftButton == ButtonState.Pressed; }
         }
 
         #endregion
 
-        public PlayerInput()
+        /*public Input()
         {
-            Controls = new ControlScheme();
+            //Controls = new ControlScheme();
 
             CurrentKeyboardState = Keyboard.GetState();
             OldKeyboardState = CurrentKeyboardState;
@@ -168,9 +168,10 @@ namespace GameLibrary.PLayerInput
             CurrentMouseState = Mouse.GetState();
             OldMouseState = CurrentMouseState;
 
-        }
+        }*/
 
-        public void Update(GameTime gameTime)
+
+        public static void Update(GameTime gameTime)
         {
             OldKeyboardState = CurrentKeyboardState;
             CurrentKeyboardState = Keyboard.GetState();

@@ -5,19 +5,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GameLibrary.PLayerInput;
+using GameLibrary.PlayerInput;
 
 namespace GameLibrary.GameObjects
 {
     public class SceneBase : GameObject
     {
+
         protected List<GameObject> Elements { get; set; }
 
-        public SceneBase(ContentManager content, PlayerInput playerInput)
-            : base(content,playerInput)
+        public SceneBase(ContentManager content)
+            : base(content)
         {
             Elements = new List<GameObject>();
-            AddElement(new DrawableGameObject(Content,"blank",PlayerInput));
+            AddElement(new PlatformerPlayer(Content,"blank"));
         }
 
         public void AddElement(GameObject obj)

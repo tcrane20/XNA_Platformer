@@ -10,3 +10,9 @@ E:\Desktop\EmptyProject\Lib\obj\x86\Debug\GameLibrary.csprojResolveAssemblyRefer
 E:\Desktop\EmptyProject\Lib\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 E:\Desktop\EmptyProject\Lib\obj\x86\Debug\GameLibrary.dll
 E:\Desktop\EmptyProject\Lib\obj\x86\Debug\GameLibrary.pdb
+E:\Desktop\XNA_Platformer\EmptyProject\Lib\obj\x86\Debug\GameLibrary.csprojResolveAssemblyReference.cache
+E:\Desktop\XNA_Platformer\EmptyProject\Lib\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Desktop\XNA_Platformer\EmptyProject\Lib\obj\x86\Debug\GameLibrary.dll
+E:\Desktop\XNA_Platformer\EmptyProject\Lib\obj\x86\Debug\GameLibrary.pdb
+E:\Desktop\XNA_Platformer\EmptyProject\Lib\bin\x86\Debug\GameLibrary.dll
+E:\Desktop\XNA_Platformer\EmptyProject\Lib\bin\x86\Debug\GameLibrary.pdb

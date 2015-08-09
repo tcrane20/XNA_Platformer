@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using GameLibrary.GameObjects;
-using GameLibrary.PLayerInput;
+using GameLibrary.PlayerInput;
 
 namespace EmptyProject
 {
@@ -22,8 +22,6 @@ namespace EmptyProject
         SpriteBatch spriteBatch;
 
         SceneBase scene;
-
-        PlayerInput playerInput;
 
         public Game1()
         {
@@ -43,9 +41,7 @@ namespace EmptyProject
 
             base.Initialize();
 
-            playerInput = new PlayerInput();
-
-            scene = new SceneBase(Content,playerInput);
+            scene = new SceneBase(Content);
 
             
         }
@@ -78,7 +74,7 @@ namespace EmptyProject
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            playerInput.Update(gameTime);
+            Input.Update(gameTime);
 
             scene.Update(gameTime);
 
