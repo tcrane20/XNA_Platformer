@@ -59,17 +59,22 @@
     <Reference Include="System.Net" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\GameData.cs" />
+    <Compile Include="Data\Map\MapData.cs" />
+    <Compile Include="Data\Map\TileData.cs" />
+    <Compile Include="Data\Map\TilesetData.cs" />
     <Compile Include="GameObjects\GameObject.cs" />
     <Compile Include="GameObjects\PlatformerObject.cs" />
     <Compile Include="GameObjects\PlatformerPlayer.cs" />
-    <Compile Include="GameObjects\SceneBase.cs" />
+    <Compile Include="Map\Tileset.cs" />
+    <Compile Include="Map\Map.cs" />
+    <Compile Include="PlayerInput\SceneBase.cs" />
     <Compile Include="GameObjects\DrawableGameObject.cs" />
     <Compile Include="PlayerInput\ControlScheme.cs" />
     <Compile Include="PlayerInput\PlayerInput.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data\" />
     <Folder Include="Scenes\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

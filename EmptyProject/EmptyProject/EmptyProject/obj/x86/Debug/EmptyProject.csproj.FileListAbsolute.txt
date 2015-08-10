@@ -31,3 +31,14 @@ E:\Desktop\XNA_Platformer\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\E
 E:\Desktop\XNA_Platformer\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\EmptyProject.pdb
 E:\Desktop\XNA_Platformer\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\GameLibrary.dll
 E:\Desktop\XNA_Platformer\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\GameLibrary.pdb
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\Content\blank.xnb
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\Content\XMLFile1.xnb
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\Content\font.xnb
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\EmptyProject.exe
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\EmptyProject.pdb
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\GameLibrary.dll
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\EmptyProject\EmptyProject\bin\x86\Debug\GameLibrary.pdb
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\EmptyProject\EmptyProject\obj\x86\Debug\EmptyProject.csprojResolveAssemblyReference.cache
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\EmptyProject\EmptyProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\EmptyProject\EmptyProject\obj\x86\Debug\EmptyProject.exe
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\EmptyProject\EmptyProject\obj\x86\Debug\EmptyProject.pdb

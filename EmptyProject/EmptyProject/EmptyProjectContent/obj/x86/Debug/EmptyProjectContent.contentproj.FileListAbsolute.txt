@@ -1,3 +1,4 @@
 C:\Users\Diogo\Desktop\EmptyProject\EmptyProject\EmptyProjectContent\obj\x86\Debug\EmptyProjectContent.contentprojResolveAssemblyReference.cache
 E:\Desktop\EmptyProject\EmptyProject\EmptyProjectContent\obj\x86\Debug\EmptyProjectContent.contentprojResolveAssemblyReference.cache
 E:\Desktop\XNA_Platformer\EmptyProject\EmptyProject\EmptyProjectContent\obj\x86\Debug\EmptyProjectContent.contentprojResolveAssemblyReference.cache
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\EmptyProject\EmptyProjectContent\obj\x86\Debug\EmptyProjectContent.contentprojResolveAssemblyReference.cache

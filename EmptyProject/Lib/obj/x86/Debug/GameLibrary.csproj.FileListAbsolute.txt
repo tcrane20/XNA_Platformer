@@ -16,3 +16,9 @@ E:\Desktop\XNA_Platformer\EmptyProject\Lib\obj\x86\Debug\GameLibrary.dll
 E:\Desktop\XNA_Platformer\EmptyProject\Lib\obj\x86\Debug\GameLibrary.pdb
 E:\Desktop\XNA_Platformer\EmptyProject\Lib\bin\x86\Debug\GameLibrary.dll
 E:\Desktop\XNA_Platformer\EmptyProject\Lib\bin\x86\Debug\GameLibrary.pdb
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\Lib\obj\x86\Debug\GameLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\Lib\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\Lib\obj\x86\Debug\GameLibrary.dll
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\Lib\obj\x86\Debug\GameLibrary.pdb
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\Lib\bin\x86\Debug\GameLibrary.dll
+C:\Users\Diogo\Desktop\XNA_Platformer\trunk\EmptyProject\Lib\bin\x86\Debug\GameLibrary.pdb

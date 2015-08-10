@@ -19,8 +19,8 @@ namespace GameLibrary.GameObjects
 
 
 
-        public PlatformerObject(ContentManager content, string textureName)
-            : base(content, textureName)
+        public PlatformerObject(ContentManager content,GameObject parent, string textureName)
+            : base(content,parent, textureName)
         {
             
         }

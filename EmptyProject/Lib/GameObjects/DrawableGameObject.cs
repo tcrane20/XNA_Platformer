@@ -15,8 +15,8 @@ namespace GameLibrary.GameObjects
 
         public Vector2 Position { get; set; }
 
-        public DrawableGameObject(ContentManager content, string textureName)
-            :base(content)
+        public DrawableGameObject(ContentManager content,GameObject parent, string textureName)
+            :base(content,parent)
         {
             Texture = Content.Load<Texture2D>(textureName);
         }

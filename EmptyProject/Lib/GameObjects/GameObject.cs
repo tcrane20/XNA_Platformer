@@ -17,11 +17,15 @@ namespace GameLibrary.GameObjects
 
         protected ContentManager Content { get; set; }
 
-        
-
         public GameObject(ContentManager content)
         {
             Content = content;
+        }
+
+        public GameObject(ContentManager content, GameObject parent)
+        {
+            Content = content;
+            Parent = parent;
         }
 
         public virtual void Draw(SpriteBatch spriteBatch)

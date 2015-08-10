@@ -18,13 +18,12 @@ namespace GameLibrary.GameObjects
             : base(content)
         {
             Elements = new List<GameObject>();
-            AddElement(new PlatformerPlayer(Content,"blank"));
+            AddElement(new PlatformerPlayer(Content,this,"blank"));
         }
 
         public void AddElement(GameObject obj)
         {
            Elements.Add(obj);
-           obj.Parent = this;
         }
 
         public override void Update(GameTime gameTime) 
